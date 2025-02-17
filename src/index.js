@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function Hello() {
+  return <h1 className="greeting">Hi, Good Evening!</h1>;
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Hello/>
   </React.StrictMode>
 );
 
