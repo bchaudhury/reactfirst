@@ -8,17 +8,17 @@ function Hello() {
   return <h1 className="greeting">Hi, Good Evening!</h1>;
 }
 
-function Add() {
+function Arithmatic() {
   const x = 5;
   const y = 10;
-  return <h1>{x+y}</h1>;
+  return <h1>{(y/x)+y}</h1>;
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Hello/>
-    <Add/>
+    <Arithmatic/>
   </React.StrictMode>
 );
 
